@@ -6,8 +6,8 @@ for i in range(n):
     quality = line[0]
     objects = line[1:]
 
-    for object in objects:
-        dictionary[object] = quality
+    for obj in objects:
+        dictionary[obj] = quality
         
 word = input()
 if word in dictionary:
